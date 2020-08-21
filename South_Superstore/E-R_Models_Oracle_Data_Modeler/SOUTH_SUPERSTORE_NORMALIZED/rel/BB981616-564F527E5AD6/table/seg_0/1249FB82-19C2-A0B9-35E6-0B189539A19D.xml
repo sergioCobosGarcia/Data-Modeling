@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1249FB82-19C2-A0B9-35E6-0B189539A19D" schemaObject="3E0F3DE1-D1B2-83BF-5F31-5A189E741485" name="PRODUCT">
+<sourceConnName>SOUTH_SUPERSTORE</sourceConnName>
+<sourceObjSchema>SOUTH_SUPERSTORE</sourceObjSchema>
+<sourceObjName>PRODUCT</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRODUCT" id="7C504055-6635-653B-C680-968FF19A953E">
+<sourceConnName>SOUTH_SUPERSTORE</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>ID_PRODUCT</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT" id="6A90CFFE-A58A-66E0-CFCB-C0C00BCCDA3B">
+<sourceConnName>SOUTH_SUPERSTORE</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>PRODUCT</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_NAME" id="AE272F79-5821-339F-E200-EFAE945C413C">
+<sourceConnName>SOUTH_SUPERSTORE</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>PRODUCT_NAME</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400 CHAR</dataTypeSize>
+<ownDataTypeParameters>400 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBCATEGORY_ID" id="50BAD4AF-0B2C-05DE-60E1-99338E814BDD">
+<sourceConnName>SOUTH_SUPERSTORE</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>SUBCATEGORY_ID</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51B8138F-F9F0-6909-5DDD-CE70242BE7B2" referredColumn="ACA321A2-C51A-CA2D-F936-7BD8C4D61521"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="468477A7-B928-BC80-681A-A196645C9FB5" name="PK_PRODUCT">
+<sourceConnName>SOUTH_SUPERSTORE</sourceConnName>
+<sourceObjSchema>SOUTH_SUPERSTORE</sourceObjSchema>
+<sourceObjName>PK_PRODUCT</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:40 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C504055-6635-653B-C680-968FF19A953E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D0901DF-C8D6-F14D-0183-DC9F5626ED30" schemaObject="3E0F3DE1-D1B2-83BF-5F31-5A189E741485" name="PK_PRODUCT">
+<sourceConnName>SOUTH_SUPERSTORE</sourceConnName>
+<sourceObjSchema>SOUTH_SUPERSTORE</sourceObjSchema>
+<sourceObjName>PK_PRODUCT</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:39 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C504055-6635-653B-C680-968FF19A953E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="511B08E0-3A32-0E0B-B4A5-E1C37AD8A47C" name="FK_SUBCATEGORY">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:42 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50BAD4AF-0B2C-05DE-60E1-99338E814BDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

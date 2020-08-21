@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SOUTH_SUPERSTORE_DENORMALIZED" id="68F356DD-1386-4F7A-9EF8-6DA7F134EF07" version="3.5">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:03:07 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>68F356DD-1386-4F7A-9EF8-6DA7F134EF07</designId>
+</OSDM_Design>

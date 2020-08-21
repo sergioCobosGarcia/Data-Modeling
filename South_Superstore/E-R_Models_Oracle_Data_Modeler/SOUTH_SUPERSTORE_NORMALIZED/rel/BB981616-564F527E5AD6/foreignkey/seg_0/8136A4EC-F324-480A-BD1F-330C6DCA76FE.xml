@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8136A4EC-F324-480A-BD1F-330C6DCA76FE" containerWithKeyObject="63B0D8E6-CA12-00E6-14D5-AE32CC930164" localFKIndex="73393944-59CB-2DC4-1C81-3D0F64EDD37E" name="FK_CATEGORY">
+<sourceConnName>SOUTH_SUPERSTORE</sourceConnName>
+<sourceObjSchema>SOUTH_SUPERSTORE</sourceObjSchema>
+<sourceObjName>FK_CATEGORY</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:42 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+<referredTableLongName>SOUTH_SUPERSTORE.CATEGORY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3BB0102F-EC10-EFF5-571C-C734D9C17455</referredTableID>
+<keyObject>EBBA0FA7-3BB9-E197-66F3-5249EE512086</keyObject>
+<referredKeyID>EBBA0FA7-3BB9-E197-66F3-5249EE512086</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_CATEGORY</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

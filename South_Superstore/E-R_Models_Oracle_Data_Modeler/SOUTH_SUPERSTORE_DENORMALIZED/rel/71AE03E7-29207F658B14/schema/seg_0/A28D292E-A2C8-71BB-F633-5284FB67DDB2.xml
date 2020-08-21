@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="SOUTH_SUPERSTORE_DENORMALIZED" directorySegmentName="seg_0" id="A28D292E-A2C8-71BB-F633-5284FB67DDB2">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</SchemaObject>

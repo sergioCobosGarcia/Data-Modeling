@@ -1,0 +1,412 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D304F7C6-8BE6-BFCB-62F9-302098161900" schemaObject="A28D292E-A2C8-71BB-F633-5284FB67DDB2" name="ORDERS">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>SOUTH_SUPERSTORE_DENORMALIZED</sourceObjSchema>
+<sourceObjName>ORDERS</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ROW" id="1B851F5D-D21E-E308-F2C5-9821E9C80225">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>ID_ROW</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ORDER" id="90052393-43BC-6073-CD45-F756DE1014F1">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>ID_ORDER</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FLAG_ORDER_RETURNED" id="8D7147C1-1F5F-6D1C-A215-2DF246A5D7DE">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>FLAG_ORDER_RETURNED</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_DATE" id="E451E759-D101-3DC7-168E-73BC7189DE25">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>ORDER_DATE</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHIP_DATE" id="76BFE99E-80AB-A8EA-FC82-08882F643475">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>SHIP_DATE</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHIP_MODE" id="AB365568-6F5B-5BE5-BB78-178E4F59B226">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>SHIP_MODE</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER" id="3FDE1CBA-D81D-8B21-D9FA-205636D27EB8">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>CUSTOMER</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_NAME" id="7497A1BF-0272-D219-ECD3-12F156D195CD">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>CUSTOMER_NAME</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FLAG_CUSTOMER_REWARD" id="5470D25F-808A-04A0-BF1C-315A25606ED4">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>FLAG_CUSTOMER_REWARD</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEGMENT" id="311BF4DE-5697-B56F-3715-DA62CACE50E3">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>SEGMENT</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZIP" id="C610A549-D05A-253F-C6F4-CBDC340A8A10">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>ZIP</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="34318559-B842-90EE-C5CD-3CFA23818D6D">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>CITY</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE" id="8B8BBD15-9FAC-7E0D-26E9-9B4ED3F93081">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>STATE</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION" id="6759001A-F9E3-4E67-BF10-95BF6EAE455C">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>REGION</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY" id="7CA524B5-B25E-F9C2-88A7-2623C9A52537">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>COUNTRY</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT" id="E4DCBC7F-71C2-EAC7-5503-07AE992C2280">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>PRODUCT</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_NAME" id="A5FFBE49-30C4-08D2-E1BC-96A5910ECC60">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>PRODUCT_NAME</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400 CHAR</dataTypeSize>
+<ownDataTypeParameters>400 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBCATEGORY" id="0F2EBC8C-1D66-90A9-B0EA-F3D34405AAD9">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>SUBCATEGORY</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORY" id="55C4C4B4-4FCB-1803-A9BF-4F40CFCD886C">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>CATEGORY</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALES" id="30B55C27-9D24-C888-5BAD-49C00B88860E">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>SALES</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>25</dataTypeScale>
+<ownDataTypeParameters>,38,25</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTITY" id="C4BE5318-4042-A41C-F92D-7473EF3CEE25">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>QUANTITY</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISCOUNT" id="690D281F-BE10-E1C3-D29B-B1A3D578F3BF">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>DISCOUNT</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFIT" id="123207C7-55A9-A5D8-3FD2-0C2DF31404CE">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>PROFIT</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>25</dataTypeScale>
+<ownDataTypeParameters>,38,25</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_YEAR" id="3929736D-D675-DE2F-BAAE-2163DA76747D">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>ORDER_YEAR</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0BF49FC-53F4-BB7A-8576-6D5F62248E91" name="PK_ORDERS">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>SOUTH_SUPERSTORE_DENORMALIZED</sourceObjSchema>
+<sourceObjName>PK_ORDERS</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:44 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B851F5D-D21E-E308-F2C5-9821E9C80225"/>
+<colUsage columnID="90052393-43BC-6073-CD45-F756DE1014F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21C051BD-3878-79F6-805B-817DBDEFB7F2" schemaObject="A28D292E-A2C8-71BB-F633-5284FB67DDB2" name="PK_ORDERS">
+<sourceConnName>SOUTH_SUPERSTORE_DENORMALIZED</sourceConnName>
+<sourceObjSchema>SOUTH_SUPERSTORE_DENORMALIZED</sourceObjSchema>
+<sourceObjName>PK_ORDERS</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B851F5D-D21E-E308-F2C5-9821E9C80225"/>
+<colUsage columnID="90052393-43BC-6073-CD45-F756DE1014F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="SOUTH_SUPERSTORE_ORIGINAL" id="6A310DCE-6575-0247-1B0D-DDA339BDB78F">
+<createdBy>Sergio</createdBy>
+<modifiedBy>Sergio</modifiedBy>
+<createdTime>2020-08-21 10:06:50 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="24D36954-0F12-FFAF-0F05-3F49D98C7909" otype="Table" vid="8FA78B24-0A67-2918-BBEC-02A7A9E6D4EE">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="20" width="284" height="94"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="73EAF1FD-4FCC-CBE3-23EB-EE89AAA4D41D" otype="Table" vid="476A1F82-BDD0-A114-7C81-B4D7C6B37E8B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="354" y="20" width="309" height="94"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="87A31A15-60EC-9E3D-0D6E-5EBA1A7426C2" otype="Table" vid="012E0875-2703-7503-A590-6473CA382AA0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="17" y="147" width="318" height="122"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="B673961D-48CB-0C9C-E521-4F04171DA51F" otype="Table" vid="D0E7736B-A766-2F7F-30BA-E014C1D79835">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="361" y="141" width="267" height="374"/>
+</OView>
+</objectViews>
+</Diagram>

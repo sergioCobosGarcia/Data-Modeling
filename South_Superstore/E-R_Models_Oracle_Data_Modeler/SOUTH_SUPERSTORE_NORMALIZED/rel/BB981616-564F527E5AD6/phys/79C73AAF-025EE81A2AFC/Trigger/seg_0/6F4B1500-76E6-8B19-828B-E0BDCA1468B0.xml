@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRIGG_PRODUCT" directorySegmentName="seg_0" id="6F4B1500-76E6-8B19-828B-E0BDCA1468B0">
+<sourceConnName>SOUTH_SUPERSTORE</sourceConnName>
+<sourceObjSchema>SOUTH_SUPERSTORE</sourceObjSchema>
+<sourceObjName>TRIGG_PRODUCT</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:42 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[BEGIN
+  SELECT SEQ_PRODUCT.NEXTVAL
+  INTO   :new.ID_PRODUCT
+  FROM   dual;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>5FDEB12B-9CC2-4079-6491-05CC956DF7A9</owner>
+<table>1249FB82-19C2-A0B9-35E6-0B189539A19D</table>
+</TriggerOraclev10g>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="270AB522-020F-942B-E55C-D5DD68210532">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:03:07 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

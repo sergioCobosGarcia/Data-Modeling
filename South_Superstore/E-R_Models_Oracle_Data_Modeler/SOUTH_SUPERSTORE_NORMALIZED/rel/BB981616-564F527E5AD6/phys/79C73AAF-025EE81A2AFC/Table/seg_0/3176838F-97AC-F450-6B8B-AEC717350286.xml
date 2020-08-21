@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ORDERS" directorySegmentName="seg_0" id="3176838F-97AC-F450-6B8B-AEC717350286">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+<schemaObject>3E0F3DE1-D1B2-83BF-5F31-5A189E741485</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BBBC71D5-D6C2-0718-6681-A3C7C0027B4F</segment>
+<tableSpace>14ED3A7B-0627-7E78-321A-DFCB3514773F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PROFIT" id="027614DC-DFEA-626E-98DD-7A2C85205C9F">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QUANTITY" id="0317004F-8A0D-730C-697C-96E6FE2BB2F1">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALES" id="0EF757BB-962F-B605-B8AE-87F844E25D0F">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_DATE" id="1043182F-91F8-5BA3-3C06-A5541C2AFE92">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ROW" id="149B3A0E-86F4-E14E-1772-CCDD5333F8BC">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_YEAR" id="1DDD9643-0071-A5A3-6A6B-7997B9C60C76">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHIP_DATE" id="2CC840D1-25CF-6DC8-B5D1-A09D92541336">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMER_ID" id="34C9DB2F-529A-6F09-855D-6A8E01256089">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHIP_MODE" id="3BA56919-9B01-BAB2-901C-C7E68666B7D1">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCT_ID" id="7DCDD6DA-5B9D-B066-D7EC-1129BC1ABEEF">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOCATION_ID" id="81763DBF-C0DE-3C28-EC08-7113B9A31D70">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FLAG_RETURNED" id="C983F458-624B-00A4-7CC4-BFC8346AF4D8">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DISCOUNT" id="D0A768C4-BBE1-36D4-4BF9-8BAF8777B78B">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ORDER" id="FB1C54FD-4035-AD20-BB8B-46D801DA1937">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_ORDERS" id="E40B7478-218E-5174-4A78-9A2134A7A649">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:39 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+<schemaObject>3E0F3DE1-D1B2-83BF-5F31-5A189E741485</schemaObject>
+<segment>6E88A752-8D6C-8AAC-D13D-8D6D0E9ED37A</segment>
+<tableSpace>14ED3A7B-0627-7E78-321A-DFCB3514773F</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_LOCATION" id="3046FEE4-B18E-2B02-A06F-97AAE49C8E86">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:42 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PRODUCT" id="CF9396BF-43A3-C666-E3B0-B17BFA95A098">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:42 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CUSTOMER" id="F14FD72B-B2B0-90F3-2EA3-554C8ED0DEF2">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:42 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_ORDERS" id="62F15597-9412-55E9-3832-0F2C85DBC0B7">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:40 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+<segment>6E88A752-8D6C-8AAC-D13D-8D6D0E9ED37A</segment>
+<tableSpace>14ED3A7B-0627-7E78-321A-DFCB3514773F</tableSpace>
+<existingIndex>E40B7478-218E-5174-4A78-9A2134A7A649</existingIndex>
+<indexSegment>6E88A752-8D6C-8AAC-D13D-8D6D0E9ED37A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

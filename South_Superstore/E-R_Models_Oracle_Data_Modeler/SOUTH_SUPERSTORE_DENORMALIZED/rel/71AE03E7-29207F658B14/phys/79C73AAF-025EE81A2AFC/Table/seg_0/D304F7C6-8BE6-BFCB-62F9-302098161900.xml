@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ORDERS" directorySegmentName="seg_0" id="D304F7C6-8BE6-BFCB-62F9-302098161900">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<schemaObject>A28D292E-A2C8-71BB-F633-5284FB67DDB2</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4A304E47-1605-A39C-4538-43DE4A2EF774</segment>
+<tableSpace>5D873F25-8FE2-40CB-471B-8787BA1C58FA</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SUBCATEGORY" id="0F2EBC8C-1D66-90A9-B0EA-F3D34405AAD9">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROFIT" id="123207C7-55A9-A5D8-3FD2-0C2DF31404CE">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ROW" id="1B851F5D-D21E-E308-F2C5-9821E9C80225">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALES" id="30B55C27-9D24-C888-5BAD-49C00B88860E">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEGMENT" id="311BF4DE-5697-B56F-3715-DA62CACE50E3">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CITY" id="34318559-B842-90EE-C5CD-3CFA23818D6D">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_YEAR" id="3929736D-D675-DE2F-BAAE-2163DA76747D">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMER" id="3FDE1CBA-D81D-8B21-D9FA-205636D27EB8">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FLAG_CUSTOMER_REWARD" id="5470D25F-808A-04A0-BF1C-315A25606ED4">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATEGORY" id="55C4C4B4-4FCB-1803-A9BF-4F40CFCD886C">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGION" id="6759001A-F9E3-4E67-BF10-95BF6EAE455C">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DISCOUNT" id="690D281F-BE10-E1C3-D29B-B1A3D578F3BF">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMER_NAME" id="7497A1BF-0272-D219-ECD3-12F156D195CD">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHIP_DATE" id="76BFE99E-80AB-A8EA-FC82-08882F643475">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COUNTRY" id="7CA524B5-B25E-F9C2-88A7-2623C9A52537">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATE" id="8B8BBD15-9FAC-7E0D-26E9-9B4ED3F93081">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FLAG_ORDER_RETURNED" id="8D7147C1-1F5F-6D1C-A215-2DF246A5D7DE">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ORDER" id="90052393-43BC-6073-CD45-F756DE1014F1">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCT_NAME" id="A5FFBE49-30C4-08D2-E1BC-96A5910ECC60">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHIP_MODE" id="AB365568-6F5B-5BE5-BB78-178E4F59B226">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QUANTITY" id="C4BE5318-4042-A41C-F92D-7473EF3CEE25">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ZIP" id="C610A549-D05A-253F-C6F4-CBDC340A8A10">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_DATE" id="E451E759-D101-3DC7-168E-73BC7189DE25">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCT" id="E4DCBC7F-71C2-EAC7-5503-07AE992C2280">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_ORDERS" id="21C051BD-3878-79F6-805B-817DBDEFB7F2">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:43 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<schemaObject>A28D292E-A2C8-71BB-F633-5284FB67DDB2</schemaObject>
+<segment>C180149E-2FE8-1FDB-2B90-3ADAF388F580</segment>
+<tableSpace>5D873F25-8FE2-40CB-471B-8787BA1C58FA</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_ORDERS" id="D0BF49FC-53F4-BB7A-8576-6D5F62248E91">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:04:45 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<segment>C180149E-2FE8-1FDB-2B90-3ADAF388F580</segment>
+<tableSpace>5D873F25-8FE2-40CB-471B-8787BA1C58FA</tableSpace>
+<existingIndex>21C051BD-3878-79F6-805B-817DBDEFB7F2</existingIndex>
+<indexSegment>C180149E-2FE8-1FDB-2B90-3ADAF388F580</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

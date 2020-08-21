@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="4F8D083B-612F-1426-2962-605B9EEA0E18">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:16:50 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ORDER_RETURN" directorySegmentName="seg_0" id="24D36954-0F12-FFAF-0F05-3F49D98C7909">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:51 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<schemaObject>34D01F4F-4BB4-91FE-9352-F3DFB1CCB818</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>949C1A06-AE28-1057-0A68-78CBC2EDB808</segment>
+<tableSpace>74D7AB48-22B4-B22F-1824-F2DBF3E94A1C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_ORDER" id="2EFDB049-4DC6-44FD-913E-57860323E7BB">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:51 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="56666080-D27A-71E6-3FB0-981E122B16C1">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:51 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_ORDER_RETURN" id="C63C9E9C-4B15-6673-B865-54EC8F34A897">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:52 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<schemaObject>34D01F4F-4BB4-91FE-9352-F3DFB1CCB818</schemaObject>
+<segment>75B02955-D008-864C-274B-353234D2E8F1</segment>
+<tableSpace>74D7AB48-22B4-B22F-1824-F2DBF3E94A1C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_ORDER_RETURN" id="638275C3-3A51-4A02-F212-0AC8CE44D507">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:52 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<segment>75B02955-D008-864C-274B-353234D2E8F1</segment>
+<tableSpace>74D7AB48-22B4-B22F-1824-F2DBF3E94A1C</tableSpace>
+<existingIndex>C63C9E9C-4B15-6673-B865-54EC8F34A897</existingIndex>
+<indexSegment>75B02955-D008-864C-274B-353234D2E8F1</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

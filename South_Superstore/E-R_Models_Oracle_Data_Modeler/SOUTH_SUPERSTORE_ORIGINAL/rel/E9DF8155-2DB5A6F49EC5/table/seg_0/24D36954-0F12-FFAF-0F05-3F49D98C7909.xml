@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24D36954-0F12-FFAF-0F05-3F49D98C7909" schemaObject="34D01F4F-4BB4-91FE-9352-F3DFB1CCB818" name="ORDER_RETURN">
+<sourceConnName>SOUTH_SUPERSTORE_ORIGINAL</sourceConnName>
+<sourceObjSchema>SOUTH_SUPERSTORE_ORIGINAL</sourceObjSchema>
+<sourceObjName>ORDER_RETURN</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:51 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ORDER" id="2EFDB049-4DC6-44FD-913E-57860323E7BB">
+<sourceConnName>SOUTH_SUPERSTORE_ORIGINAL</sourceConnName>
+<sourceObjSchema>ORDER_RETURN</sourceObjSchema>
+<sourceObjName>ID_ORDER</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:51 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="56666080-D27A-71E6-3FB0-981E122B16C1">
+<sourceConnName>SOUTH_SUPERSTORE_ORIGINAL</sourceConnName>
+<sourceObjSchema>ORDER_RETURN</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:51 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="638275C3-3A51-4A02-F212-0AC8CE44D507" name="PK_ORDER_RETURN">
+<sourceConnName>SOUTH_SUPERSTORE_ORIGINAL</sourceConnName>
+<sourceObjSchema>SOUTH_SUPERSTORE_ORIGINAL</sourceObjSchema>
+<sourceObjName>PK_ORDER_RETURN</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:52 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EFDB049-4DC6-44FD-913E-57860323E7BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C63C9E9C-4B15-6673-B865-54EC8F34A897" schemaObject="34D01F4F-4BB4-91FE-9352-F3DFB1CCB818" name="PK_ORDER_RETURN">
+<sourceConnName>SOUTH_SUPERSTORE_ORIGINAL</sourceConnName>
+<sourceObjSchema>SOUTH_SUPERSTORE_ORIGINAL</sourceObjSchema>
+<sourceObjName>PK_ORDER_RETURN</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:52 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EFDB049-4DC6-44FD-913E-57860323E7BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

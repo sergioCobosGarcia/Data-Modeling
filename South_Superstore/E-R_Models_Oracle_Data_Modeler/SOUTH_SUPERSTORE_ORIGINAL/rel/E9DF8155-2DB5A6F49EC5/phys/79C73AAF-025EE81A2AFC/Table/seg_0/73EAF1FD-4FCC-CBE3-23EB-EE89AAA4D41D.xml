@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="REWARD_CUSTOMER" directorySegmentName="seg_0" id="73EAF1FD-4FCC-CBE3-23EB-EE89AAA4D41D">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:51 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<schemaObject>34D01F4F-4BB4-91FE-9352-F3DFB1CCB818</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>949C1A06-AE28-1057-0A68-78CBC2EDB808</segment>
+<tableSpace>74D7AB48-22B4-B22F-1824-F2DBF3E94A1C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CUSTOMER_NAME" id="B6240850-3186-9F6A-0D58-4EDFBA5F1371">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:51 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CUSTOMER" id="E1983207-4945-1D0E-C92B-5A2B84BF3648">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:51 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_REWARD_CUSTOMER" id="252CA86B-7075-7742-4150-86280CA33BA4">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:52 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<schemaObject>34D01F4F-4BB4-91FE-9352-F3DFB1CCB818</schemaObject>
+<segment>75B02955-D008-864C-274B-353234D2E8F1</segment>
+<tableSpace>74D7AB48-22B4-B22F-1824-F2DBF3E94A1C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_REWARD_CUSTOMER" id="9251749A-9B2A-9EB9-32B4-67D3EEC1758A">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:52 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<segment>75B02955-D008-864C-274B-353234D2E8F1</segment>
+<tableSpace>74D7AB48-22B4-B22F-1824-F2DBF3E94A1C</tableSpace>
+<existingIndex>252CA86B-7075-7742-4150-86280CA33BA4</existingIndex>
+<indexSegment>75B02955-D008-864C-274B-353234D2E8F1</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

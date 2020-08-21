@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="53CCB449-CDCE-6A09-B496-F438A22879CE" containerWithKeyObject="3176838F-97AC-F450-6B8B-AEC717350286" localFKIndex="3046FEE4-B18E-2B02-A06F-97AAE49C8E86" name="FK_LOCATION">
+<sourceConnName>SOUTH_SUPERSTORE</sourceConnName>
+<sourceObjSchema>SOUTH_SUPERSTORE</sourceObjSchema>
+<sourceObjName>FK_LOCATION</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:42 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+<referredTableLongName>SOUTH_SUPERSTORE.LOCATION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E6FBADCD-B528-4206-17AB-6A44DB9D1F7C</referredTableID>
+<keyObject>F954C2ED-FCE6-EC6A-F647-C3DAFC0B199D</keyObject>
+<referredKeyID>F954C2ED-FCE6-EC6A-F647-C3DAFC0B199D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_LOCATION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="A28D292E-A2C8-71BB-F633-5284FB67DDB2" name="SOUTH_SUPERSTORE_DENORMALIZED" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.SchemaObject" propertyParentId="71AE03E7-7CEC-337A-A2C3-29207F658B14" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="D304F7C6-8BE6-BFCB-62F9-302098161900" name="ORDERS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="71AE03E7-7CEC-337A-A2C3-29207F658B14" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="88FD66A9-0A18-5A67-3BA5-7E4262AED159" name="TARGET" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="71AE03E7-7CEC-337A-A2C3-29207F658B14" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

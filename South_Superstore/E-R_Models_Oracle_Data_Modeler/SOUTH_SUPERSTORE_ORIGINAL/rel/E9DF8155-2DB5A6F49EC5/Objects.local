@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="34D01F4F-4BB4-91FE-9352-F3DFB1CCB818" name="SOUTH_SUPERSTORE_ORIGINAL" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.SchemaObject" propertyParentId="E9DF8155-0CC8-37FA-21D1-2DB5A6F49EC5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="24D36954-0F12-FFAF-0F05-3F49D98C7909" name="ORDER_RETURN" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="E9DF8155-0CC8-37FA-21D1-2DB5A6F49EC5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="B673961D-48CB-0C9C-E521-4F04171DA51F" name="ORDERS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="E9DF8155-0CC8-37FA-21D1-2DB5A6F49EC5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="73EAF1FD-4FCC-CBE3-23EB-EE89AAA4D41D" name="REWARD_CUSTOMER" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="E9DF8155-0CC8-37FA-21D1-2DB5A6F49EC5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="87A31A15-60EC-9E3D-0D6E-5EBA1A7426C2" name="TARGET" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="E9DF8155-0CC8-37FA-21D1-2DB5A6F49EC5" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

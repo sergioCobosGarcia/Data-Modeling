@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="SOUTH_SUPERSTORE_ORIGINAL" id="E9DF8155-0CC8-37FA-21D1-2DB5A6F49EC5" mainViewID="6A310DCE-6575-0247-1B0D-DDA339BDB78F">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:24 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>SOUTH_SUPERSTORE_ORIGINAL</connName>
+<connUser>SOUTH_SUPERSTORE_ORIGINAL</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

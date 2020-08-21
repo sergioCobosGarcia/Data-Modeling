@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="C7ADDB68-7B9D-DC35-00B8-59C620CD925B" name="SOUTH_SUPERSTORE_NORMALIZED" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

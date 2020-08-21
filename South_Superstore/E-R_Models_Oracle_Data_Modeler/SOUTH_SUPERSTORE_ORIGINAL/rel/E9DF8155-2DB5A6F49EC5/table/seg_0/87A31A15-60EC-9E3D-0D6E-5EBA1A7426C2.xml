@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87A31A15-60EC-9E3D-0D6E-5EBA1A7426C2" schemaObject="34D01F4F-4BB4-91FE-9352-F3DFB1CCB818" name="TARGET">
+<sourceConnName>SOUTH_SUPERSTORE_ORIGINAL</sourceConnName>
+<sourceObjSchema>SOUTH_SUPERSTORE_ORIGINAL</sourceObjSchema>
+<sourceObjName>TARGET</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:51 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCT_SUBCATEGORY" id="351A8B52-625E-C57C-488D-5C0C244F1275">
+<sourceConnName>SOUTH_SUPERSTORE_ORIGINAL</sourceConnName>
+<sourceObjSchema>TARGET</sourceObjSchema>
+<sourceObjName>PRODUCT_SUBCATEGORY</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:51 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_YEAR" id="82DDA22D-3B00-2503-CC2D-4ED71D1A1B36">
+<sourceConnName>SOUTH_SUPERSTORE_ORIGINAL</sourceConnName>
+<sourceObjSchema>TARGET</sourceObjSchema>
+<sourceObjName>ORDER_YEAR</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:51 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFIT_TARGET" id="7290D047-B47A-FEB9-D3B5-7A0E22924EFD">
+<sourceConnName>SOUTH_SUPERSTORE_ORIGINAL</sourceConnName>
+<sourceObjSchema>TARGET</sourceObjSchema>
+<sourceObjName>PROFIT_TARGET</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:51 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>25</dataTypeScale>
+<ownDataTypeParameters>,38,25</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALES_TARGET" id="66E32F21-30FA-F7E4-5DBD-7BF0D2F4DCB0">
+<sourceConnName>SOUTH_SUPERSTORE_ORIGINAL</sourceConnName>
+<sourceObjSchema>TARGET</sourceObjSchema>
+<sourceObjName>SALES_TARGET</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:51 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>25</dataTypeScale>
+<ownDataTypeParameters>,38,25</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6EAF16B5-1A46-E332-B898-CA931AB34B36" name="PK_TARGET">
+<sourceConnName>SOUTH_SUPERSTORE_ORIGINAL</sourceConnName>
+<sourceObjSchema>SOUTH_SUPERSTORE_ORIGINAL</sourceObjSchema>
+<sourceObjName>PK_TARGET</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:52 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="351A8B52-625E-C57C-488D-5C0C244F1275"/>
+<colUsage columnID="82DDA22D-3B00-2503-CC2D-4ED71D1A1B36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7976FFA9-F0C9-5DF7-5C4A-6522288DC48F" schemaObject="34D01F4F-4BB4-91FE-9352-F3DFB1CCB818" name="PK_TARGET">
+<sourceConnName>SOUTH_SUPERSTORE_ORIGINAL</sourceConnName>
+<sourceObjSchema>SOUTH_SUPERSTORE_ORIGINAL</sourceObjSchema>
+<sourceObjName>PK_TARGET</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:52 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="351A8B52-625E-C57C-488D-5C0C244F1275"/>
+<colUsage columnID="82DDA22D-3B00-2503-CC2D-4ED71D1A1B36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

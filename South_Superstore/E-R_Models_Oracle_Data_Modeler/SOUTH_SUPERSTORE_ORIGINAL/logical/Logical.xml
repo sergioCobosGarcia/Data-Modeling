@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="62AAF08F-90EA-2DF9-E41C-D32913DC8FFF" mainViewID="7AF8D5E8-6446-23C0-D2A0-910168BC46D3">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:22 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

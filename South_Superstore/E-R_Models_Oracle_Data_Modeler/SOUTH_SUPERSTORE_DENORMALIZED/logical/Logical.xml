@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="95F7B3A0-96F2-3602-9E79-B680AB9FD5D5" mainViewID="83F0F939-652A-A62B-AE4A-C7F2E32509BB">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:03:07 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_DENORMALIZED</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

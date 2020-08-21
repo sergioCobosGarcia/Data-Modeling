@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73EAF1FD-4FCC-CBE3-23EB-EE89AAA4D41D" schemaObject="34D01F4F-4BB4-91FE-9352-F3DFB1CCB818" name="REWARD_CUSTOMER">
+<sourceConnName>SOUTH_SUPERSTORE_ORIGINAL</sourceConnName>
+<sourceObjSchema>SOUTH_SUPERSTORE_ORIGINAL</sourceObjSchema>
+<sourceObjName>REWARD_CUSTOMER</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:51 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CUSTOMER" id="E1983207-4945-1D0E-C92B-5A2B84BF3648">
+<sourceConnName>SOUTH_SUPERSTORE_ORIGINAL</sourceConnName>
+<sourceObjSchema>REWARD_CUSTOMER</sourceObjSchema>
+<sourceObjName>ID_CUSTOMER</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:51 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_NAME" id="B6240850-3186-9F6A-0D58-4EDFBA5F1371">
+<sourceConnName>SOUTH_SUPERSTORE_ORIGINAL</sourceConnName>
+<sourceObjSchema>REWARD_CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_NAME</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:51 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9251749A-9B2A-9EB9-32B4-67D3EEC1758A" name="PK_REWARD_CUSTOMER">
+<sourceConnName>SOUTH_SUPERSTORE_ORIGINAL</sourceConnName>
+<sourceObjSchema>SOUTH_SUPERSTORE_ORIGINAL</sourceObjSchema>
+<sourceObjName>PK_REWARD_CUSTOMER</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:52 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1983207-4945-1D0E-C92B-5A2B84BF3648"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="252CA86B-7075-7742-4150-86280CA33BA4" schemaObject="34D01F4F-4BB4-91FE-9352-F3DFB1CCB818" name="PK_REWARD_CUSTOMER">
+<sourceConnName>SOUTH_SUPERSTORE_ORIGINAL</sourceConnName>
+<sourceObjSchema>SOUTH_SUPERSTORE_ORIGINAL</sourceObjSchema>
+<sourceObjName>PK_REWARD_CUSTOMER</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:06:52 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_ORIGINAL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1983207-4945-1D0E-C92B-5A2B84BF3648"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

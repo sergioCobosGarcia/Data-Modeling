@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRIGG_LOCATION" directorySegmentName="seg_0" id="DC574223-298A-B06A-CCFA-16EB318B10A9">
+<sourceConnName>SOUTH_SUPERSTORE</sourceConnName>
+<sourceObjSchema>SOUTH_SUPERSTORE</sourceObjSchema>
+<sourceObjName>TRIGG_LOCATION</sourceObjName>
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:42 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[BEGIN
+  SELECT SEQ_LOCATION.NEXTVAL
+  INTO   :new.ID_LOCATION
+  FROM   dual;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>5FDEB12B-9CC2-4079-6491-05CC956DF7A9</owner>
+<table>E6FBADCD-B528-4206-17AB-6A44DB9D1F7C</table>
+</TriggerOraclev10g>

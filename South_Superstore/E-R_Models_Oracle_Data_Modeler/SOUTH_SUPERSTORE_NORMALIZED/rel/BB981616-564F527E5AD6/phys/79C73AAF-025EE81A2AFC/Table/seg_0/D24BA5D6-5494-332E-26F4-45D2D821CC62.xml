@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TARGET" directorySegmentName="seg_0" id="D24BA5D6-5494-332E-26F4-45D2D821CC62">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+<schemaObject>3E0F3DE1-D1B2-83BF-5F31-5A189E741485</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BBBC71D5-D6C2-0718-6681-A3C7C0027B4F</segment>
+<tableSpace>14ED3A7B-0627-7E78-321A-DFCB3514773F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_SUBCATEGORY" id="1C68314C-0CE9-82DA-D52F-FABC106537B6">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="YEAR" id="64DE4BDA-7796-423B-1C91-4D34744B93D5">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROFIT_TARGET" id="87FF8F80-1ED2-1DDF-5289-B63FD11B020D">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALES_TARGET" id="F5A06D55-766A-6503-4CFA-88CE4349C938">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:38 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_TARGET" id="C7B821B2-1F86-948E-4D6C-715D0B55EEE4">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:39 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+<schemaObject>3E0F3DE1-D1B2-83BF-5F31-5A189E741485</schemaObject>
+<segment>6E88A752-8D6C-8AAC-D13D-8D6D0E9ED37A</segment>
+<tableSpace>14ED3A7B-0627-7E78-321A-DFCB3514773F</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SUBCATEGORY_TARGET" id="2BE2DA98-A30C-E48E-C7F1-E1B25D38F058">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:42 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_TARGET" id="9741C913-E95A-C4C1-A464-8458DE0526A6">
+<createdBy>Sergio</createdBy>
+<createdTime>2020-08-21 10:17:40 UTC</createdTime>
+<ownerDesignName>SOUTH_SUPERSTORE_NORMALIZED</ownerDesignName>
+<segment>6E88A752-8D6C-8AAC-D13D-8D6D0E9ED37A</segment>
+<tableSpace>14ED3A7B-0627-7E78-321A-DFCB3514773F</tableSpace>
+<existingIndex>C7B821B2-1F86-948E-4D6C-715D0B55EEE4</existingIndex>
+<indexSegment>6E88A752-8D6C-8AAC-D13D-8D6D0E9ED37A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
