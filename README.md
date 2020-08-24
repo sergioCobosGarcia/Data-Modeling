@@ -1,5 +1,6 @@
 # South Superstore
 
+
 ## Spanish
 
 
@@ -23,14 +24,18 @@ Para este ejemplo de modelización de datos se han creado 3 modelos, el modelo o
 
 
 ### Original
+![Original Data Model](https://i.ibb.co/pr5kHhd/Original-Data-Model.jpg)
 
 El modelo original ha sido creado siguiendo la estructura original de la fuente de datos, es decir, una tabla por cada pestaña del excel, no contiene relaciones.
 
 ### Normalized
+![Normalized Data Model](https://i.ibb.co/BTbyj9H/Normalized-Data-Model.jpg)
 
 Este modelo ha sido normalizado y relacionado en base a criterios de rendimiento y necesidad ya que ha sido necesario crear la jerarquía de Categoría, Subcategoría y Producto para poder relacionarla con la tabla de Targets, del mismo modo, se ha creído conveniente pese a estar en un modelo normalizado no crear un copo de nieve para las localizaciones para evitar múltiples join lo que reduciría el tamaño de la base de datos pero afectaría al rendimiento y sobre todo a la usabilidad por parte del usuario que necesitaría realizar múltiples joins para obtener la información de la localización.
 
 ### Denormalized
+![Denormalized Data Model](https://i.ibb.co/kq91jsR/Denormalized-Data-Model.jpg)
+
 Este modelo ha sido desnormalizado hasta el máximo posible quedando únicamente 2 tablas que no han podido ser "unificadas" debido a que la información que contienen está a distinto nivel de granularidad, la tabla de target contiene información de objetivos a nivel de subcategorías por año y la tabla de Orders contiene la información a nivel de pedidos y productos, no obstante si se han "unificado" las tablas Reward_Customer y Returns añadiendo campos FLAG para añadir estos indicadores de los campos en la tablas pudiendo así suprimir 2 tablas, esto puede perjudicar la usabilidad a nivel de usuario ya que ciertas consultas pueden requerir de la cláusula Distinct pero en ciertos entornos como un DataWarehouse en HIVE obtendríamos un mejor rendimiento gracias a esta unificación de información de 3 tablas en una única tabla, este diseño no contiene relaciones fisicas creadas.
 
 
@@ -57,13 +62,17 @@ For this example of data modelling, 3 models have been created, the original mod
 
 
 ### Original
+![Original Data Model](https://i.ibb.co/pr5kHhd/Original-Data-Model.jpg)
 
 The original model has been created following the original structure of the data source, i.e. one table for each tab in the excel, without relationships.
 
 ### Normalized
+![Normalized Data Model](https://i.ibb.co/BTbyj9H/Normalized-Data-Model.jpg)
 
 This model has been normalized and related based on performance and necessity criteria since it has been necessary to create the hierarchy of Category, Subcategory and Product to be able to relate it to the Targets table, in the same way, it has been considered convenient despite being in a normalized model not to create a snowflake for the locations to avoid multiple joins which would reduce the size of the database but would affect the performance and above all the usability by the user who would need to perform multiple joins to obtain the location information.
 
 ### Denormalized
+![Denormalized Data Model](https://i.ibb.co/kq91jsR/Denormalized-Data-Model.jpg)
+
 This model has been denormalized as much as possible, leaving only 2 tables that could not be "unified" because the information they contain is at different levels of granularity, the target table contains information on targets at the level of subcategories by year and the Orders table contains information at the level of orders and products, however if the tables Reward_Customer and Returns have been "unified" adding FLAG fields to add these indicators of the fields in the table and thus being able to suppress 2 tables, this can harm the usability at user level since certain consultations can require the Distinct clause but in certain environments like a DataWarehouse in HIVE we would obtain a better performance thanks to this unification of information of 3 tables in a single table, this design does not contain created physical relations.
 
