@@ -8,7 +8,7 @@ El objetivo del proyecto es, partiendo de unos datos proporcionados en una Excel
 
 Las tecnologías utilizadas han sido Oracle Database 18c Express Edition Release 18.0.0.0.0 - Production Version 18.4.0.0.0, Oracle SQL Developer Version 19.2.1.247 y Oracle Data Modeler Version 20.2.0.167.
 
-El origen de datos es el siguiente Excel que se encuentra en el repositorio \South_Superstore\Data_Source\South_Superstore.xlsx
+El origen de datos es el [siguiente Excel](https://justbeamit.com/c3jbc) que se encuentra en el repositorio \South_Superstore\Data_Source\South_Superstore.xlsx 
 
 Para replicar el proyecto, a parte de tener el software arriba indicado instalado, se pueden utilizar los scripts de creación de base de datos proporcionados en el repositorio, que contienen la creación de las diferentes bases de datos, tablas e inserts.
 
@@ -46,7 +46,7 @@ The objective of the project is, starting from data provided in an Excel, to mak
 
 The technologies used were Oracle Database 18c Express Edition Release 18.0.0.0 - Production Version 18.4.0.0.0, Oracle SQL Developer Version 19.2.1.247 and Oracle Data Modeler Version 20.2.0.167.
 
-The data source is the following Excel which is located in the repository \South_Superstore\Data_Source\South_Superstore.xlsx
+The data source is the [following Excel](https://justbeamit.com/c3jbc) which is located in the repository \South_Superstore\Data_Source\South_Superstore.xlsx
 
 To replicate the project, apart from having the above software installed, you can use the database creation scripts provided in the repository, which contain the creation of the different databases, tables and inserts.
 
