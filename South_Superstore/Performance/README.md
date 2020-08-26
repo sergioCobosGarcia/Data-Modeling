@@ -7,10 +7,12 @@ Se pretende obtener los productos, subcategorías y categorías cuyas subcategor
 Para ello ejecutamos las querys indicadas abajo y comparamos el rendimiento de los tres modelos obteniendo los mismos resultados.
 *En esta prueba la query para los modelos Original y Denormalized es la misma.
 
+
 Modelo	Tiempo (Segundos)	Numero de Joins	Registros
 Original	0,005	1	34
 Normalized	0,019	4	34
 Denormalized	0,005	1	34
+
 
 #### Querys
 ##### Original
