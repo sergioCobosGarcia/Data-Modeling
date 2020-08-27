@@ -199,7 +199,7 @@ Denormalized	0,005	1	34
   ON  target.product_subcategory = orders.subcategory
   where sales > sales_target;
  ~~~ 
-![Original Data Model]( https://i.ibb.co/0m8N8Tc/original11.jpg) (INSETAT FOTO ORIGINAL11.jpg)
+![Original Data Model]( https://i.ibb.co/0m8N8Tc/original11.jpg)
 
 
 ##### Normalized
