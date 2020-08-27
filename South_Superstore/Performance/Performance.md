@@ -5,6 +5,7 @@
 
 Se pretende obtener los productos, subcategorías y categorías cuyas subcategorías tengan más ventas que las esperadas.
 Para ello ejecutamos las querys indicadas abajo y comparamos el rendimiento de los tres modelos obteniendo los mismos resultados.
+
 *En esta prueba la query para los modelos Original y Denormalized es la misma.
 
 ![Test 1 ESP]( https://i.ibb.co/crrbkQv/Tabla-ESP-Test1.jpg)
@@ -51,6 +52,7 @@ SELECT category,subcategory,product,sales,sales_target FROM CATEGORY
 ### Prueba 2: Poca diferencia en el número de Joins de la consulta
 Se pretende los nombres de los clientes que han tenido recompensa.
 Para ello ejecutamos las querys indicadas abajo y comparamos el rendimiento de los tres modelos obteniendo los mismos resultados.
+
 *Debido a la alta desnormalizacion del modelo Denormalized es necesario aplicar un distinct en la consulta.
 
 ![Test 2 ESP]( https://i.ibb.co/tY8QXNy/Tabla-ESP-Test2.jpg)
@@ -86,6 +88,7 @@ Para ello ejecutamos las querys indicadas abajo y comparamos el rendimiento de l
 En líneas generales y extrapolando estos resultados a muestras más grandes podemos ver que los modelos desnormalizados sin relaciones (Denormalized y Original) pueden llegar a funcionar ligeramente más rápido que un modelo normalizado, no obstante, podemos ver que esta mejora del rendimiento únicamente se ha evidenciado en la prueba 1 donde teníamos un número elevado de joins en la consulta del modelo normalizado.
 
 * Los resultados en segundos de las querys son de la primera ejecución antes de estar cacheado el resultado.
+
 # English
 ## Performance
 
@@ -93,6 +96,7 @@ En líneas generales y extrapolando estos resultados a muestras más grandes pod
 
 The aim is to obtain the products, subcategories and categories whose subcategories have more sales than expected.
 To do this we execute the queries below and compare the performance of the three models obtaining the same results.
+
 *In this test the query for the Original and Denormalized models is the same.
 
 ![Test 1 ENG]( https://i.ibb.co/vq8jDBf/Tabla-ENG-Test1.jpg)
@@ -139,6 +143,7 @@ SELECT category,subcategory,product,sales,sales_target FROM CATEGORY
 ### Test 2: Little difference in the number of Joins in the practice
 The names of customers who have been rewarded are intended.
 To do this we execute the queries below and compare the performance of the three models obtaining the same results.
+
 *Due to the high denormality of the Denormalized model it is necessary to apply a distinct in the query.
 
 ![Test 2 ENG]( https://i.ibb.co/RN2dLpF/Tabla-ENG-Test2.jpg)
