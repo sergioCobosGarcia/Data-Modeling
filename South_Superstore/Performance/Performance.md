@@ -7,7 +7,7 @@ Se pretende obtener los productos, subcategorías y categorías cuyas subcategor
 Para ello ejecutamos las querys indicadas abajo y comparamos el rendimiento de los tres modelos obteniendo los mismos resultados.
 *En esta prueba la query para los modelos Original y Denormalized es la misma.
 
-
+![Test 1 ESP]( https://i.ibb.co/crrbkQv/Tabla-ESP-Test1.jpg)
 Modelo	Tiempo (Segundos)	Numero de Joins	Registros
 Original	0,005	1	34
 Normalized	0,019	4	34
@@ -57,6 +57,7 @@ Se pretende los nombres de los clientes que han tenido recompensa.
 Para ello ejecutamos las querys indicadas abajo y comparamos el rendimiento de los tres modelos obteniendo los mismos resultados.
 *Debido a la alta desnormalizacion del modelo Denormalized es necesario aplicar un distinct en la consulta.
 
+![Test 2 ESP]( https://i.ibb.co/tY8QXNy/Tabla-ESP-Test2.jpg)
 Modelo	Tiempo	Numero de Joins	Registros
 Original	0,015	1	233
 Normalized	0,015	0	233
@@ -102,7 +103,7 @@ The aim is to obtain the products, subcategories and categories whose subcategor
 To do this we execute the queries below and compare the performance of the three models obtaining the same results.
 *In this test the query for the Original and Denormalized models is the same.
 
-
+![Test 1 ENG]( https://i.ibb.co/vq8jDBf/Tabla-ENG-Test1.jpg)
 Model	Time (Seconds)	Number of Joins	Records
 Original	0,005	1	34
 Normalized	0,019	4	34
@@ -151,6 +152,7 @@ The names of customers who have been rewarded are intended.
 To do this we execute the queries below and compare the performance of the three models obtaining the same results.
 *Due to the high denormality of the Denormalized model it is necessary to apply a distinct in the query.
 
+![Test 2 ENG]( https://i.ibb.co/RN2dLpF/Tabla-ENG-Test2.jpg)
 Model	Time (Seconds)	Number of Joins	Records
 Original	0,015	1	233
 Normalized	0,015	0	233
