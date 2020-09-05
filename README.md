@@ -151,11 +151,11 @@ It is important to point out that the results may vary according to the environm
 
 As a general premise when performing the modeling, we have taken into account the idea that nowadays it is more important the immediacy in the results after the execution of a query than the storage of the information, trying to minimize the number of joins required in the normalized model to obtain the information, avoiding if possible the creation of hierarchies and snowflakes, resulting in a normalized model but not highly normalized.
 
-This way of modeling is very useful for Big Data environments which is interesting to avoid hierarchies and snowflakes in order not to cause a dispersion of the tables through the HDFS blocks that would cause a slow execution of the queries, in these environments it is more interesting to have redundant data in "boards" since the disk space is no longer a main problem in HDFS as it was some years ago, in exchange of this higher disk space due to the redundant data, we obtain an important improvement in the performance.
+This way of modeling is very useful for Big Data environments which is interesting to avoid hierarchies and snowflakes in order not to cause a dispersion of the tables through the HDFS blocks that would cause a slow execution of the queries, in these environments, sometimes, it is more interesting to have redundant data in tables since the disk space is no longer a main problem in HDFS as it was some years ago, in exchange of this higher disk space due to the redundant data, we obtain an important improvement in the performance.
 
 However, it should be noted that the results shown at the performance level in the examples developed in the project are merely anecdotal due to the number of records available in the data source, although some differences can be seen at the millisecond level between the same queries through the models and the number of joins to be made that could be extrapolated to larger data samples.
 
-For this example of data modelling, 3 models have been created, the original model, a denormalised model and a standardised model.
+For this example of data modelling, 3 models have been created, the original model, a denormalized model and a normalized model.
 
 
 #### Original
@@ -176,7 +176,7 @@ This model has been denormalized as much as possible, leaving only 2 tables that
 
 ### Performance
 
-#### Test 1: Big difference in the number of Joins in the practice
+#### Test 1: Big difference in the number of Joins in the query
 
 The aim is to obtain the products, subcategories and categories whose subcategories have more sales than expected.
 To do this we execute the queries below and compare the performance of the three models obtaining the same results.
@@ -224,7 +224,7 @@ SELECT category,subcategory,product,sales,sales_target FROM CATEGORY
  ~~~ 
 ![Denormalized Data Model](https://i.ibb.co/Q9Q6vFt/denormalized.jpg)
 
-#### Test 2: Little difference in the number of Joins in the practice
+#### Test 2: Little difference in the number of Joins in the query
 The names of customers who have been rewarded are intended.
 To do this we execute the queries below and compare the performance of the three models obtaining the same results.
 
